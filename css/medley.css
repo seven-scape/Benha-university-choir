@@ -505,3 +505,329 @@ transform:translate(-25px,0);
     }
 
 }
+
+
+
+@media (max-width:1600px){
+
+.medley-left{
+    width:27%;
+}
+
+.medley-center{
+    width:45%;
+}
+
+.medley-right{
+    width:25%;
+    transform:translate(-15px,0);
+}
+
+.medley-title .small{
+    font-size:36px;
+}
+
+.medley-title .big{
+    font-size:44px;
+}
+
+.medley-title .red{
+    font-size:50px;
+}
+
+.track-info h4{
+    font-size:18px;
+}
+
+.track-info small{
+    font-size:13px;
+}
+
+.track-time{
+    font-size:16px;
+}
+
+.record-wrapper{
+    width:670px;
+    height:670px;
+}
+
+.record-arm{
+    width:330px;
+    top:-230px;
+    right:65px;
+}
+
+.song-cover img{
+    width:220px;
+    height:120px;
+}
+
+.medley-right h1,
+.medley-right h2{
+    font-size:42px;
+}
+
+.about-song{
+    font-size:14px;
+}
+
+.med-wave{
+    right:54%;
+}
+
+.med-wave img{
+    width:220px;
+}
+
+}
+
+
+@media (max-width:1536px){
+
+.medley-left{
+    width:28%;
+}
+
+.medley-center{
+    width:44%;
+}
+
+.medley-right{
+    width:25%;
+}
+
+.record-wrapper{
+    width:620px;
+    height:620px;
+}
+
+.record-arm{
+    width:305px;
+    top:-290px;
+    right:130px;
+}
+
+.song-cover img{
+    width:205px;
+    height:115px;
+}
+
+.medley-right h1,
+.medley-right h2{
+    font-size:38px;
+}
+
+.track{
+    padding:15px 0;
+}
+
+.track-info h4{
+    font-size:17px;
+}
+
+.track-number{
+    font-size:17px;
+}
+
+.track-time{
+    font-size:15px;
+}
+
+.med-wave img{
+    width:200px;
+}
+
+.about-song{
+    font-size:13px;
+}
+
+}
+
+
+@media (max-width:1440px){
+
+.medley-page{
+    padding:0 3%;
+}
+
+.medley-left{
+    width:29%;
+}
+
+.medley-center{
+    width:43%;
+}
+
+.medley-right{
+    width:26%;
+}
+
+.medley-title .small{
+    font-size:32px;
+}
+
+.medley-title .big{
+    font-size:40px;
+}
+
+.medley-title .red{
+    font-size:45px;
+}
+
+.record-wrapper{
+    width:560px;
+    height:560px;
+}
+
+.record-arm{
+    width:350px;
+    top:-370px;
+    right:90px;
+}
+
+.song-cover img{
+    width:190px;
+    height:105px;
+}
+
+.medley-right h1,
+.medley-right h2{
+    font-size:34px;
+}
+
+.track-info h4{
+    font-size:16px;
+}
+
+.track-info small{
+    font-size:12px;
+}
+
+.track-time{
+    font-size:14px;
+}
+
+.about-song{
+    font-size:12px;
+}
+
+.songs-grid div{
+    font-size:11px;
+}
+
+.med-wave img{
+    width:180px;
+}
+
+}
+
+
+@media (max-width:1366px){
+
+.medley-page{
+    padding:0 2%;
+}
+
+.medley-left{
+    width:30%;
+}
+
+.medley-center{
+    width:42%;
+}
+
+.medley-right{
+    width:27%;
+    transform:translate(-10px,0);
+}
+
+.medley-title .small{
+    font-size:28px;
+}
+
+.medley-title .big{
+    font-size:36px;
+}
+
+.medley-title .red{
+    font-size:40px;
+}
+
+.track{
+    gap:10px;
+    padding:13px 0;
+}
+
+.track-number{
+    font-size:15px;
+}
+
+.track-info h4{
+    font-size:15px;
+}
+
+.track-info small{
+    font-size:11px;
+}
+
+.track-time{
+    font-size:13px;
+}
+
+.record-wrapper{
+    width:500px;
+    height:500px;
+}
+
+.record-arm{
+    width:310px;
+    top:-300px;
+    right:90px;
+}
+
+.song-cover img{
+    width:175px;
+    height:95px;
+}
+
+.medley-right h1,
+.medley-right h2{
+    font-size:30px;
+}
+
+.song-progress{
+    max-width:280px;
+}
+
+.player-controls{
+    gap:16px;
+}
+
+.player-controls button{
+    width:38px;
+    height:38px;
+}
+
+.play-btn{
+    width:56px !important;
+    height:56px !important;
+}
+
+.about-song{
+    font-size:11px;
+}
+
+.songs-grid{
+    gap:10px 18px;
+}
+
+.songs-grid div{
+    font-size:10px;
+}
+
+.med-wave img{
+    width:160px;
+}
+
+}

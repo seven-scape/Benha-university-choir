@@ -264,3 +264,197 @@ header,
         transform:translateY(0);
     }
 }
+
+
+/* ================= Laptop 1600 ================= */
+
+@media (max-width:1600px){
+
+    .join-page{
+        padding:90px 4% 0;
+    }
+
+    .join-left{
+        width:28%;
+    }
+
+    .join-center{
+        width:32%;
+    }
+
+    .join-right{
+        width:40%;
+        padding-left:90px;
+    }
+
+    .join-center img{
+        width:155%;
+        transform:translateX(-120px);
+    }
+
+    .join-left-title{
+        font-size:44px;
+    }
+
+    .join-title{
+        font-size:36px;
+    }
+
+    .voice-message{
+        font-size:20px;
+    }
+
+}
+
+/* ================= Laptop 1440 ================= */
+
+@media (max-width:1440px){
+
+    .join-page{
+        padding:80px 3.5% 0;
+    }
+
+    .join-center img{
+        width:145%;
+        transform:translateX(-95px);
+        margin-top:-80px;
+    }
+
+    .join-right{
+        padding-left:70px;
+    }
+
+    .join-left-title{
+        font-size:38px;
+    }
+
+    .join-title{
+        font-size:32px;
+    }
+
+    .voice-text{
+        font-size:18px;
+    }
+
+    .voice-message{
+        font-size:18px;
+    }
+
+    .join-form input,
+    .join-form select{
+        height:55px;
+        margin-bottom:18px;
+    }
+
+    .join-form button{
+        height:55px;
+    }
+
+    .join-divider img{
+        width:300px;
+    }
+
+    .bottom-wave{
+        width:210px;
+    }
+
+}
+
+
+/* ================= Laptop 1366 ================= */
+
+@media (max-width:1366px){
+
+    .join-page{
+
+        padding:70px 3% 0;
+
+    }
+
+    .join-left{
+
+        width:29%;
+    }
+
+    .join-center{
+
+        width:31%;
+    }
+
+    .join-right{
+
+        width:40%;
+        padding-left:45px;
+    }
+
+    .join-center img{
+
+        width:135%;
+        transform:translateX(-70px);
+        margin-top:-60px;
+    }
+
+    .join-left-title{
+
+        font-size:34px;
+    }
+
+    .join-title{
+
+        font-size:28px;
+    }
+
+    .voice-text{
+
+        font-size:16px;
+    }
+
+    .voice-message{
+
+        font-size:17px;
+    }
+
+    .join-form input,
+    .join-form select{
+
+        height:50px;
+        font-size:14px;
+    }
+
+    .join-form button{
+
+        height:50px;
+        font-size:16px;
+    }
+
+    .requirements h4{
+
+        font-size:16px;
+    }
+
+    .requirement-card i{
+
+        font-size:22px;
+    }
+
+    .requirement-card h5{
+
+        font-size:14px;
+    }
+
+    .requirement-card p{
+
+        font-size:12px;
+    }
+
+    .join-divider img{
+
+        width:250px;
+    }
+
+    .bottom-wave{
+
+        width:180px;
+    }
+
+}

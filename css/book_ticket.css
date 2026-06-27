@@ -677,3 +677,270 @@ a{
         transform: rotate(10deg) translateY(-12px);
     }
 }
+
+
+@media (max-width:1600px){
+
+.left-side{
+    width:39%;
+    padding:45px 50px 60px;
+}
+
+.center-side{
+    width:20%;
+}
+
+.right-side{
+    width:41%;
+    padding:55px 55px 35px;
+}
+
+.ticket-title h1{
+    font-size:46px;
+}
+
+.center-ticket{
+    width:900px;
+    left:-285px;
+}
+
+.main-concert{
+    width:78%;
+    margin-left:45px;
+}
+
+.book-btn{
+    width:290px;
+    height:54px;
+}
+
+}
+
+@media (max-width:1536px){
+
+.left-side{
+    width:40%;
+}
+
+.center-side{
+    width:19%;
+}
+
+.right-side{
+    width:41%;
+}
+
+.ticket-title h1{
+    font-size:43px;
+}
+
+.ticket-title span{
+    font-size:17px;
+}
+
+.center-ticket{
+    width:840px;
+    left:-270px;
+}
+
+.concert-card{
+    height:118px;
+}
+
+.concert-card img{
+    width:84px;
+    height:58px;
+}
+
+.main-concert{
+    width:75%;
+}
+
+.detail h4{
+    font-size:13px;
+}
+
+.detail p{
+    font-size:12px;
+}
+
+.about p{
+    font-size:14px;
+}
+
+}
+
+@media (max-width:1440px){
+
+.left-side{
+    width:40%;
+    padding:40px 40px 50px;
+}
+
+.center-side{
+    width:18%;
+}
+
+.right-side{
+    width:42%;
+    padding:45px 45px 30px;
+}
+
+.ticket-title h1{
+    font-size:40px;
+}
+
+.ticket-title span{
+    font-size:16px;
+}
+
+.wave-title img{
+    width:52px;
+}
+
+.center-ticket{
+    width:760px;
+    left:-245px;
+}
+
+.concert-card{
+    height:108px;
+    padding:15px 18px;
+}
+
+.concert-card img{
+    width:76px;
+    height:52px;
+}
+
+.concert-date strong{
+    font-size:30px;
+}
+
+.main-concert{
+    width:72%;
+    margin-left:40px;
+}
+
+.right-side h2{
+    font-size:25px;
+}
+
+.about h3{
+    font-size:18px;
+}
+
+.about p{
+    font-size:13px;
+}
+
+.book-btn{
+    width:260px;
+    height:50px;
+}
+
+}
+
+@media (max-width:1366px){
+
+.left-side{
+    width:41%;
+    padding:35px 35px 45px;
+}
+
+.center-side{
+    width:17%;
+}
+
+.right-side{
+    width:42%;
+    padding:40px 35px 25px;
+}
+
+.ticket-title h1{
+    font-size:36px;
+}
+
+.ticket-title span{
+    font-size:15px;
+}
+
+.wave-title img{
+    width:46px;
+}
+
+.concert-list{
+    gap:20px;
+}
+
+.concert-card{
+    height:98px;
+    padding:12px 15px;
+}
+
+.concert-card img{
+    width:68px;
+    height:48px;
+}
+
+.concert-info span{
+    font-size:13px;
+}
+
+.concert-info h3{
+    font-size:11px;
+}
+
+.concert-info p{
+    font-size:10px;
+}
+
+.concert-date strong{
+    font-size:26px;
+}
+
+.concert-date small{
+    font-size:10px;
+}
+
+.center-ticket{
+    width:690px;
+    left:-220px;
+}
+
+.main-concert{
+    width:70%;
+    margin-left:35px;
+}
+
+.right-side h2{
+    font-size:22px;
+}
+
+.detail i{
+    font-size:24px;
+}
+
+.detail h4{
+    font-size:12px;
+}
+
+.detail p{
+    font-size:11px;
+}
+
+.about h3{
+    font-size:17px;
+}
+
+.about p{
+    font-size:12px;
+}
+
+.book-btn{
+    width:230px;
+    height:46px;
+    font-size:14px;
+}
+
+}
