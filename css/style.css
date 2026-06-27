@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "SpaceGrotesk";
+    src: url("../assets/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:"Montserrat";
+    color:#fff;
+    overflow-x:hidden;
+}
+
+/* Global */
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    padding: 100px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.logos{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.navbar-brand{
+    margin:0;
+}
+
+.second-logo{
+    width:50px;
+    height:auto;
+}
+
+
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+
+
+
+

@@ -1,0 +1,507 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Montserrat',sans-serif;
+    overflow-x:hidden;
+    background:#f4f4f4;
+    
+}
+
+/* ================= HEADER ================= */
+
+.medley-header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:50;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:18px 35px;
+}
+
+.header-left{
+    display:flex;
+    align-items:center;
+    gap:14px;
+}
+
+.logo{
+    width:48px;
+    display:block;
+}
+
+.second-logo{
+    width:90px;
+}
+
+.menu-btn{
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    border:1.5px solid #23376d;
+    background:transparent;
+    color:#23376d;
+    font-size:24px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+}
+
+/* ================= PAGE ================= */
+.medley-page{
+    position:relative;
+    min-height:100vh;
+    overflow:hidden;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:#f4f4f4;
+  animation:fadeUp .8s ease;
+    padding:0 4%;
+}
+
+.medley-diagonal{
+    position:absolute;
+    top:0;
+    left:0;
+    width:55%;
+    height:100%;
+    background:#020b2f;
+    clip-path:polygon(0 0,100% 0,82% 100%,0 100%);
+    z-index:0;
+}
+
+.medley-left,
+.medley-center,
+.medley-right{
+    position:relative;
+    z-index:2;
+}
+
+/* ================= LEFT ================= */
+
+.medley-left{
+    width:26%;
+    padding-top:70px;
+}
+
+.medley-title{
+    text-align:center;
+    line-height:.82;
+    font-family:"Cormorant Garamond",serif;
+    padding-top: 0;
+    margin-top: 0;
+    /* margin-bottom:34px; */
+}
+
+.medley-title .small{
+    font-size: 40px;
+    color:#0d6efd;
+    font-weight:600;
+}
+
+.medley-title .big{
+    font-size:48px;
+    color:#fff;
+    font-weight:600;
+}
+
+.medley-title .red{
+    font-size:54px;
+    color:#e3203f;
+    font-weight:600;
+}
+
+.track-list-head{
+    text-align:left;
+    /* margin-bottom:25px; */
+}
+
+.track-list-head img{
+    width:100%;
+    max-width:520px;
+}
+
+.tracks-wrap{
+    width:115%;
+}
+
+.track{
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:18px;
+    padding:18px 0;
+    border-bottom:1px solid rgba(255,255,255,.16);
+    color:#fff;
+}
+
+.track-left{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    min-width:70px;
+}
+
+.track-number{
+    font-size:19px;
+    color:#fff;
+}
+
+.track-left i{
+    font-size:15px;
+    color:#fff;
+}
+
+.track-info{
+    flex:1;
+}
+
+.track-info h4{
+    font-size:20px;
+    font-weight:600;
+    margin-bottom:10px;
+    color:#fff;
+}
+
+.track-info small{
+    color:#d0d0d0;
+    font-size:15px;
+}
+
+.track-time{
+    font-size:18px;
+    color:#d9d9d9;
+    min-width:60px;
+    text-align:right;
+}
+
+.track.active{
+    padding:18px 18px;
+    border:1px solid #38a8ff;
+    border-radius:4px;
+    background:linear-gradient(90deg, rgba(43,130,255,.22), rgba(43,130,255,.06));
+    box-shadow:0 0 14px rgba(56,168,255,.35);
+}
+
+.track.active .track-number{
+    color:#ff3348;
+}
+
+/* ================= CENTER ================= */
+
+.medley-center{
+    width:47%;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.record-wrapper{
+    position:relative;
+    width:760px;
+    height:760px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    transform:none;
+    z-index:3;
+}
+.record-wrapper img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    display:block;
+    animation:spin 20s linear infinite;
+}
+
+
+.record-arm{
+    position:absolute;
+
+    top:-260px;
+    right:80px;
+
+    width:370px;
+    z-index:5;
+}
+
+/* ================= BOTTOM WAVE ================= */
+.med-wave{
+    position:absolute;
+    
+    right:55%;
+    bottom: -6px;
+    
+    z-index:2;
+}
+
+.med-wave img{
+    width:250px;
+    display:block;
+}
+
+/* ================= RIGHT ================= */
+
+.medley-right{
+    width:24%;
+    position:relative;
+    z-index:2;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+padding-top:35px;
+
+transform:translate(-25px,0);
+}
+
+/* ===== cover ===== */
+.song-cover{
+    margin-bottom:18px;
+    margin-top: 50px;
+}
+
+.song-cover img{
+    width:245px;
+    height:135px;
+    object-fit:cover;
+    display:block;
+
+    border-radius:10px;
+    border:3px solid #ff3348;
+    box-shadow:0 8px 18px rgba(0,0,0,.08);
+}
+
+/* ===== now playing ===== */
+.now-playing{
+    color:#ef3f52;
+    font-size:18px;
+    font-family:"Cormorant Garamond",serif;
+    font-weight:700;
+    letter-spacing:.5px;
+    margin:0 0 6px;
+    text-align:center;
+    text-transform:none;
+}
+
+/* ===== title ===== */
+.medley-right h1,
+.medley-right h2{
+    font-size:48px;
+    color:#23376d;
+    text-align:center;
+    margin:0 0 16px;
+    line-height:.88;
+    font-family:"Cormorant Garamond",serif;
+    font-weight:700;
+}
+
+/* ===== progress ===== */
+.song-progress{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    width:100%;
+    max-width:360px;
+    margin:0 0 22px;
+}
+
+.song-progress span{
+    font-size:13px;
+    color:#23376d;
+    font-weight:500;
+}
+
+.progress-line{
+    flex:1;
+    height:3px;
+    position:relative;
+    background:linear-gradient(
+        90deg,
+        #e3203f 0%,
+        #e3203f 35%,
+        #1e63ff 35%,
+        #1e63ff 100%
+    );
+}
+
+.progress-dot{
+    position:absolute;
+    left:35%;
+    top:50%;
+    width:9px;
+    height:9px;
+    background:#e3203f;
+    border-radius:50%;
+    transform:translate(-50%,-50%);
+}
+
+/* ===== controls ===== */
+.player-controls{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:22px;
+    margin:0 0 28px;
+}
+
+.player-controls button{
+    width:46px;
+    height:46px;
+    border:none;
+    border-radius:50%;
+    background:transparent;
+    color:#23376d;
+    font-size:30px;
+    cursor:pointer;
+}
+
+.play-btn{
+    width:66px !important;
+    height:66px !important;
+    border:2px solid #23376d !important;
+    background:#fff !important;
+    box-shadow:0 0 12px rgba(0,0,0,.06);
+}
+
+.play-btn i{
+    font-size:32px;
+}
+
+/* ===== bottom block ===== */
+.right-bottom{
+    width:100%;
+    margin-top:6px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* ===== section titles ===== */
+.section-title,
+.songs-title{
+    position:relative;
+    display:inline-block;
+    color:#23376d;
+    font-size:15px;
+    margin:0 0 18px;
+    font-weight:700;
+    text-transform:uppercase;
+}
+
+.section-title::before,
+.section-title::after,
+.songs-title::before,
+.songs-title::after{
+    content:"";
+    position:absolute;
+    top:50%;
+    width:30px;
+    height:2px;
+    background:#f14f63;
+}
+
+.section-title::before,
+.songs-title::before{
+    left:-42px;
+}
+
+.section-title::after,
+.songs-title::after{
+    right:-42px;
+}
+
+/* ===== about ===== */
+.about-song{
+    color:#1f1f1f;
+    line-height:1.6;
+    font-size:15px;
+    font-weight:600;
+
+    width:100%;
+    max-width:360px;
+
+    text-align:left;
+    margin:0 auto 30px;
+}
+
+.about-song span{
+    color: #c32126;
+}
+
+/* ===== songs ===== */
+.songs-included{
+    width:100%;
+    text-align:center;
+    
+}
+
+.songs-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:14px 24px;
+    margin-top:8px;
+    width:100%;
+}
+
+.songs-grid div{
+    font-size:12px;
+    color:#23376d;
+    white-space:nowrap;
+    text-align:left;
+    font-weight:500;
+}
+
+.songs-grid i{
+    color:#ff3348;
+    margin-right:6px;
+    font-size:14px;
+}
+
+
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes spin{
+
+    from{
+
+        transform:rotate(0);
+
+    }
+
+    to{
+
+        transform:rotate(360deg);
+
+    }
+
+}
